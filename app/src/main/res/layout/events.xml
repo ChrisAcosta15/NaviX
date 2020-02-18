@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/eventspage">
+
+
+    <Button
+        android:id="@+id/btnAct1"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="200dp"
+        android:background="@android:color/transparent"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginRight="10dp">
+
+        <Button
+            android:id="@+id/filter1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:background="@android:drawable/alert_light_frame"
+            android:gravity="center_horizontal"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/filter2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:background="@android:drawable/alert_light_frame"
+            android:gravity="center_horizontal"
+            android:text="TextView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="175dp"
+        android:layout_marginRight="10dp">
+
+        <Button
+            android:id="@+id/filter3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:background="@android:drawable/alert_light_frame"
+            android:gravity="center_horizontal"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/filter4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:background="@android:drawable/alert_light_frame"
+            android:gravity="center_horizontal"
+            android:text="TextView" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnPushFilter"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="15dp"
+        android:background="@android:color/transparent" /><![CDATA[
+
+    />
+]]>
+</LinearLayout>
+

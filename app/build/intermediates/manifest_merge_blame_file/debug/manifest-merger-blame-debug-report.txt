@@ -1,0 +1,89 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.kdiproductions.explicitintents"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->C:\Users\chris\Desktop\ExplicitIntents\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\chris\Desktop\ExplicitIntents\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\chris\Desktop\ExplicitIntents\app\src\main\AndroidManifest.xml:4:5-66
+11-->C:\Users\chris\Desktop\ExplicitIntents\app\src\main\AndroidManifest.xml:4:22-64
+12
+13    <application
+13-->C:\Users\chris\Desktop\ExplicitIntents\app\src\main\AndroidManifest.xml:6:5-33:19
+14        android:allowBackup="true"
+14-->C:\Users\chris\Desktop\ExplicitIntents\app\src\main\AndroidManifest.xml:7:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.1.0] C:\Users\chris\.gradle\caches\transforms-2\files-2.1\7f6c41cc2a14c0fbaa8d0166c17dc544\core-1.1.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\chris\Desktop\ExplicitIntents\app\src\main\AndroidManifest.xml:8:9-43
+18        android:label="@string/app_name"
+18-->C:\Users\chris\Desktop\ExplicitIntents\app\src\main\AndroidManifest.xml:9:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\chris\Desktop\ExplicitIntents\app\src\main\AndroidManifest.xml:10:9-54
+20        android:supportsRtl="true"
+20-->C:\Users\chris\Desktop\ExplicitIntents\app\src\main\AndroidManifest.xml:11:9-35
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme"
+22-->C:\Users\chris\Desktop\ExplicitIntents\app\src\main\AndroidManifest.xml:13:9-40
+23        android:usesCleartextTraffic="true" >
+23-->C:\Users\chris\Desktop\ExplicitIntents\app\src\main\AndroidManifest.xml:12:9-44
+24        <activity android:name="com.kdiproductions.explicitintents.Activity3" />
+24-->C:\Users\chris\Desktop\ExplicitIntents\app\src\main\AndroidManifest.xml:14:9-47
+24-->C:\Users\chris\Desktop\ExplicitIntents\app\src\main\AndroidManifest.xml:14:19-44
+25        <activity android:name="com.kdiproductions.explicitintents.JobPosting1" />
+25-->C:\Users\chris\Desktop\ExplicitIntents\app\src\main\AndroidManifest.xml:15:9-49
+25-->C:\Users\chris\Desktop\ExplicitIntents\app\src\main\AndroidManifest.xml:15:19-46
+26        <activity android:name="com.kdiproductions.explicitintents.CompanyBase" />
+26-->C:\Users\chris\Desktop\ExplicitIntents\app\src\main\AndroidManifest.xml:16:9-49
+26-->C:\Users\chris\Desktop\ExplicitIntents\app\src\main\AndroidManifest.xml:16:19-46
+27        <activity android:name="com.kdiproductions.explicitintents.CompanyEditor" />
+27-->C:\Users\chris\Desktop\ExplicitIntents\app\src\main\AndroidManifest.xml:17:9-50
+27-->C:\Users\chris\Desktop\ExplicitIntents\app\src\main\AndroidManifest.xml:17:19-48
+28        <activity android:name="com.kdiproductions.explicitintents.CompanyEditedVersion" />
+28-->C:\Users\chris\Desktop\ExplicitIntents\app\src\main\AndroidManifest.xml:18:9-57
+28-->C:\Users\chris\Desktop\ExplicitIntents\app\src\main\AndroidManifest.xml:18:19-55
+29        <activity android:name="com.kdiproductions.explicitintents.Company2" />
+29-->C:\Users\chris\Desktop\ExplicitIntents\app\src\main\AndroidManifest.xml:19:9-45
+29-->C:\Users\chris\Desktop\ExplicitIntents\app\src\main\AndroidManifest.xml:19:19-43
+30        <activity android:name="com.kdiproductions.explicitintents.Company4" />
+30-->C:\Users\chris\Desktop\ExplicitIntents\app\src\main\AndroidManifest.xml:20:9-45
+30-->C:\Users\chris\Desktop\ExplicitIntents\app\src\main\AndroidManifest.xml:20:19-43
+31        <activity android:name="com.kdiproductions.explicitintents.Company5" />
+31-->C:\Users\chris\Desktop\ExplicitIntents\app\src\main\AndroidManifest.xml:21:9-45
+31-->C:\Users\chris\Desktop\ExplicitIntents\app\src\main\AndroidManifest.xml:21:19-43
+32        <activity android:name="com.kdiproductions.explicitintents.Company3" />
+32-->C:\Users\chris\Desktop\ExplicitIntents\app\src\main\AndroidManifest.xml:22:9-45
+32-->C:\Users\chris\Desktop\ExplicitIntents\app\src\main\AndroidManifest.xml:22:19-43
+33        <activity android:name="com.kdiproductions.explicitintents.Company6" />
+33-->C:\Users\chris\Desktop\ExplicitIntents\app\src\main\AndroidManifest.xml:23:9-45
+33-->C:\Users\chris\Desktop\ExplicitIntents\app\src\main\AndroidManifest.xml:23:19-43
+34        <activity android:name="com.kdiproductions.explicitintents.Company7" />
+34-->C:\Users\chris\Desktop\ExplicitIntents\app\src\main\AndroidManifest.xml:24:9-45
+34-->C:\Users\chris\Desktop\ExplicitIntents\app\src\main\AndroidManifest.xml:24:19-43
+35        <activity android:name="com.kdiproductions.explicitintents.Events" />
+35-->C:\Users\chris\Desktop\ExplicitIntents\app\src\main\AndroidManifest.xml:25:9-43
+35-->C:\Users\chris\Desktop\ExplicitIntents\app\src\main\AndroidManifest.xml:25:19-41
+36        <activity android:name="com.kdiproductions.explicitintents.MainActivity" >
+36-->C:\Users\chris\Desktop\ExplicitIntents\app\src\main\AndroidManifest.xml:26:9-32:20
+36-->C:\Users\chris\Desktop\ExplicitIntents\app\src\main\AndroidManifest.xml:26:19-47
+37            <intent-filter>
+37-->C:\Users\chris\Desktop\ExplicitIntents\app\src\main\AndroidManifest.xml:27:13-31:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->C:\Users\chris\Desktop\ExplicitIntents\app\src\main\AndroidManifest.xml:28:17-69
+38-->C:\Users\chris\Desktop\ExplicitIntents\app\src\main\AndroidManifest.xml:28:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->C:\Users\chris\Desktop\ExplicitIntents\app\src\main\AndroidManifest.xml:30:17-77
+40-->C:\Users\chris\Desktop\ExplicitIntents\app\src\main\AndroidManifest.xml:30:27-74
+41            </intent-filter>
+42        </activity>
+43    </application>
+44
+45</manifest>

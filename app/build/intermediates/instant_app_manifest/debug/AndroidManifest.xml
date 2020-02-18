@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kdiproductions.explicitintents"
+    android:targetSandboxVersion="2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="29" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
+        <activity android:name="com.kdiproductions.explicitintents.Activity3" />
+        <activity android:name="com.kdiproductions.explicitintents.JobPosting1" />
+        <activity android:name="com.kdiproductions.explicitintents.CompanyBase" />
+        <activity android:name="com.kdiproductions.explicitintents.CompanyEditor" />
+        <activity android:name="com.kdiproductions.explicitintents.CompanyEditedVersion" />
+        <activity android:name="com.kdiproductions.explicitintents.Company2" />
+        <activity android:name="com.kdiproductions.explicitintents.Company4" />
+        <activity android:name="com.kdiproductions.explicitintents.Company5" />
+        <activity android:name="com.kdiproductions.explicitintents.Company3" />
+        <activity android:name="com.kdiproductions.explicitintents.Company6" />
+        <activity android:name="com.kdiproductions.explicitintents.Company7" />
+        <activity android:name="com.kdiproductions.explicitintents.Events" />
+        <activity android:name="com.kdiproductions.explicitintents.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/realmap"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+
+    <LinearLayout
+        android:layout_width="91dp"
+        android:layout_height="190dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginRight="30dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnCompany4"
+            android:layout_width="35dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="0"
+            android:background="@drawable/internationalpaper" />
+
+        <Button
+            android:id="@+id/btnCompany5"
+            android:layout_width="35dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="0"
+            android:background="@drawable/mcleod" />
+
+        <Button
+            android:id="@+id/btnCompany"
+            android:layout_width="35dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="0"
+            android:background="@drawable/siteone" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="377dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="45dp">
+
+        <Button
+            android:id="@+id/btnCompany2"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="0"
+            android:background="@drawable/tsys" />
+
+        <Button
+            android:id="@+id/btnCompany1"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="0"
+            android:background="@drawable/jbhunt" />
+
+        <Button
+            android:id="@+id/btnCompany3"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="0"
+            android:background="@drawable/accenture" />
+
+        <Button
+            android:id="@+id/btnCompany6"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="0"
+            android:background="@mipmap/ic_launcher" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/hbhunt_bg"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="619dp"
+            android:layout_marginTop="80dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnListing1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="0"
+                android:background="@drawable/dashedlinebutton"
+                android:fontFamily="@font/agencyfb"
+                android:text="Operations - Intern +"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvListing1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/agencyfb"
+                android:gravity="center_horizontal"
+                android:text="TextView"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnListing2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="0"
+                android:background="@drawable/dashedlinebutton"
+                android:fontFamily="@font/agencyfb"
+                android:text="Transportation - Intern +"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvListing2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/agencyfb"
+                android:gravity="center_horizontal"
+                android:text="TextView"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnListing3"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="0"
+                android:background="@drawable/dashedlinebutton"
+                android:fontFamily="@font/agencyfb"
+                android:text="Application Development - Intern +"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvListing3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/agencyfb"
+                android:gravity="center_horizontal"
+                android:text="TextView"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnMinimize"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="0"
+                android:background="@drawable/dashedlinebutton"
+                android:fontFamily="@font/agencyfb"
+                android:text="Minimize"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
